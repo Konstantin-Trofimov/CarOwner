@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="wrapper">
+        <div class="container">
+            <div class="card card__owner-info">
+                <div class="card__item card__email">Email: <span></span></div>
+                <div class="card__item card__name">Name: <span></span></div>
+                <div class="card__item card__owner">Owner: <span></span></div>
+                <button class="btn card__edit">Edit</button>
+            </div>
+
+            <div class="card card__car-info">
+                <img class="card__succses" src="./img/success.svg" alt="success">
+                <div class="card__item card__title"><span></span></div>
+                <div class="card__item card__descr">Description: <div></div></div>
+                <div class="card__item card__color">Color: <span></span></div>
+                <div class="card__item card__trim-level">Trim level: <span></span></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="overlay hide">
+        <div class="form">
+            <input class="form__email" type="text" placeholder="email">
+            <input class="form__name" type="text" placeholder="name">
+            <input class="form__owner" type="text" placeholder="owner">
+
+            <button class="btn form__confirm">Confirm</button>
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
